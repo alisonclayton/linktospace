@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+    height: 100wh;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/fundo\ galáxia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-item {
+    margin-top: 4%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.logo-white {
+    margin-top: 10%;
+    width: 120px;
+}
+
+.orbicom-title {
+    color: white;
+    font-size: 28px;
+}
+
+.form-login {
+    margin-top: 15%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.label-style {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.input-login {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    padding: 5%;
+    font-size: 18px;
+}
+
+.btn-login-item {
+    width: 60%;
+    height: 35px;
+    background: white;
+    color: #a24b9b;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 1%;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.self-footer {
+    /* background: grey; */
+    width: 100vw;
+    height: 20vh;
+    /* justify-self: flex-end; */
+    position: absolute;
+    bottom: 0;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo-footer {
+    height: 50px;
+}
